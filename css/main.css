@@ -390,6 +390,7 @@ body {
 }
 
 .hero__end-link {
+  text-decoration: none;
   margin: 0;
   padding: 0 25px;
   font-family: "DM Sans";
@@ -404,30 +405,30 @@ body {
   padding: 0;
 }
 
-.Tree {
+.tree {
   display: flex;
   flex-direction: column;
 }
 
-.Tree__menu {
+.tree__menu {
   display: flex;
 }
 
-.Tree__item {
+.tree__item {
   margin-left: 24px;
   width: 270px;
   height: 283px;
-  padding: 0 76px 0 52px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   background: url(../images/background.svg);
 }
 
-.Tree__item:first-child {
+.tree__item:first-child {
   margin-left: 0;
 }
 
-.Tree__item--2 {
+.tree__item--2 {
   background: url(../images/background-2.svg);
 }
 
@@ -474,7 +475,7 @@ body {
   color: #000;
 }
 
-.Tree__link {
+.tree__link {
   margin: 0 auto;
   margin-top: 40px;
   width: 130px;
