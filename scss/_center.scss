@@ -1,12 +1,19 @@
 .intro {
     max-width: 1400px;
-    background: url(../images/barglar.svg);
-    background-position: center bottom;
-    background-repeat: no-repeat;
+    position: relative;
     display: flex;
     margin: 0 auto;
     padding: 0 74px 0 144px;
     margin-bottom: 102px;
+}
+
+.intro__backimg {
+    position: absolute;
+    left: 43.31%;
+    right: 44.37%;
+    top: 54.06%;
+    bottom: 22.58%;
+
 }
 
 .intro__main {
@@ -105,10 +112,10 @@
 
 .intro__right-center {
     z-index: 1;  
-    left: 55.49%;
+    left: 58.49%;
     right: 0%;
     top: 19.11%;
-    bottom: 74.49%;
+    bottom: 70.49%;
     position: absolute;
 }
 
@@ -118,7 +125,7 @@
     right: 1.02%;
     top: 55.39%;
     bottom: 16.2%;
-    left: 55.78%;
+    left: 65.78%;
 }
 
 .intro__ending {
@@ -359,3 +366,317 @@
     line-height: 23px;
     color: $white;
 }
+
+.main {
+    position: relative;
+    display: flex;
+    margin: 0;
+    margin-bottom: 164px;
+}
+
+.main__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__left-header {
+    margin: 0;
+    margin-right: 48px;
+    margin-bottom: 43px;
+}
+
+.main__left-ftext {
+    margin: 0;
+    width: 497px;
+    height: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: $black;
+}
+
+.main__left-ltext {  
+    width: 502px;
+    height: 78px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $grey;
+}
+
+.main__left-footer {
+    padding: 20px 65px 30px 30px;
+    position: absolute;
+    left: 0%;
+    right: 48.18%;
+    top: 42.56%;
+    bottom: 10%;
+    z-index: 1;
+    width: 597px;
+    height: 205px;
+    background: $green;
+}
+
+.main__left-person {
+  padding-right: 10px;
+}
+
+.main__left-header2 {
+    display: flex;
+}
+
+.main__left-inside {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__left-ftext1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+}
+
+.main__left-ltext1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: $gray2;
+}
+
+.main__left-2ftext {
+    font-family: 'DM Sans';
+    font-style: normal;
+    line-height: 160%;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'DM Sans';
+    color: $gray2;
+}
+
+.btm-list {
+    margin: 0 auto;
+    margin-bottom: 79px;
+    padding: 60px 503px 60px 55px;
+    position: relative;
+    width: 1040px;
+    height: 320px;
+    background-color: $mainblue;
+    border-radius: 6px;
+    display: flex;
+}
+
+.btm-list__ftext {
+    margin: 0;
+    width: 524px;
+    height: 57px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: $black;
+}
+
+.btm-list__ltext {
+    margin: 0;
+    margin-bottom: 30px;
+    width: 458px;
+    height: 52px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $grey;
+}
+
+input[type=email], select {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 8px 8px 20px;
+    width: 451px;
+    height: 56px;
+    background: $white;
+    border-radius: 4px;
+    border: 0px;
+}
+
+input[type=submit], select {
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    bottom: 0;
+    left: 38%;
+    right: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 11px 16px;
+    width: 98px;
+    height: 40px;
+    background: $green;
+    border-radius: 4px;
+    color: $white;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border: 0px;
+}
+
+.btm-list__img {
+    position: absolute;
+    left: 72.5%;
+    right: 2.31%;
+    top: -10%;
+    bottom: 0%;
+}
+
+.ender {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.ender__header {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ender__header-ftext {
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    color: $black;
+}
+
+.ender__header-ltext {
+    margin: 0 auto;
+    width: 544px;
+    margin-bottom: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: $grey;
+}
+
+.ender__footer {
+    position: relative;
+    display: flex;
+    width: 1152px;
+    height: 241px;
+}
+
+
+.ender__footer--fimg {
+    background: url(../images/rasm-1.png)
+}
+
+.end__footer-limg {
+    position: absolute;
+    left: 7%;
+    right: 20%;
+    top: 38.33%;
+    bottom: 0%;
+}
+
+
+.footer {
+    display: flex;
+    margin: 0;
+    margin-bottom: 96px;
+}
+
+.footer__left {
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__first-text {
+    width: 107px;  
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: $black;
+}
+
+.footer__first-text2 {
+    width: 158px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: $gray3;
+}
+
+.footer__left-text2 {
+    font-family: 'DM Sans';
+    width: 306px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $gray3;
+    padding: 0;
+}
+
+.footer__linker {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+}
+
+.footer__link {
+    padding-left: 16px;
+}
+
+.footer__link:first-child {
+    padding-left: 0;
+}
+
+.footer__right {
+    display: flex;
+}
+
+.footer__right-first {
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__first-link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
