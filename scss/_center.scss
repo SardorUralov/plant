@@ -249,11 +249,12 @@
     list-style-type: none;
     text-decoration: none;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 0 420px;
 }
 
 .hero__end-flink {
+    text-decoration: none;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -263,6 +264,7 @@
 }
 
 .hero__end-link {
+    margin: 0;
     padding: 0 25px;   
     font-family: 'DM Sans';
     font-style: normal;
@@ -271,6 +273,7 @@
     line-height: 21px;
     color: $grey;
 }
+
 
 .hero__end-link:last-child {
     padding: 0;
@@ -593,6 +596,8 @@ input[type=submit], select {
 }
 
 .end__footer-limg {
+    width: 66px;
+    height: 66px;
     position: absolute;
     left: 7%;
     right: 20%;
